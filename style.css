@@ -1,0 +1,107 @@
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: flex-start;
+  text-align: center;
+  text-decoration: solid;
+  font-style: italic;
+
+}
+nav a {
+  color:blue;
+  text-decoration:none;
+}
+.down{
+  display: flex;
+
+ position:fixed;
+  right: 20px;
+  top: 50px;
+  padding:10px;
+  background-color: red;
+  color:white;
+
+}
+#home{
+ 
+ display: flex;
+ flex-direction: column-reverse;
+ align-items: center;
+}
+.description{
+  text-decoration: solid;
+ text-decoration-style: solid;
+ color: blue;
+}
+span{
+  color: red;
+}
+
+#about_me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ text-align: center;
+ text-decoration: navy;
+}
+section h3{
+  color: red;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+
+}
+#my_work{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ text-align: center;
+ text-decoration: navy;
+}
+p{
+  color: blue;
+}
+#Contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ text-align: center;
+ text-decoration: navy;
+}
+.form{
+text-align: center;
+ padding: 20px;
+ margin: 30px;
+ display: flex;
+align-content: space-around;
+justify-content: center;
+word-spacing: 20px;
+flex-flow: wrap column;
+color: blue;
+}
+button{
+  color:white;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  background-color: red;
+  
+}
+input{
+  display: flex;
+  align-content: center;
+  color: blue;
+}
+.top{
+  position:fixed;
+  right: 20px;
+  bottom: 50px;
+  padding:10px;
+  background-color: red;
+  color:white;
+
+}
+body{
+  background-image: url("./bachgroun0.gif")
+ 
+}
